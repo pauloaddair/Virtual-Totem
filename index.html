@@ -23,6 +23,13 @@
 	-moz-transform-origin: 50% 50%;
 	float: left;
 	  }
+      #busca {
+	width: 60px;
+	transform-origin: 50% 50%;
+	-webkit-transform-origin: 50% 50%;
+	-moz-transform-origin: 50% 50%;
+	float: left;
+	  }
       #icone {
 	width: 60px;
 	transform-origin: 50% 50%;
@@ -204,9 +211,18 @@ $(window).load(function() {
 		        </div>
 			    <!-- #main -->
   </div>
+      <form action="">
+      <input type="text" x-webkit-speech>
+      </form>
                   <div id="compassContainer">
       <div id="imagem">
-      <img src="imagens/seta-direcao.png" id="compass"/>
+          <img src="imagens/logotipo_150.png" id="busca"/>
+      </div>
+      <img src="imagens/busca.png" name="icone" id="icone"/>
+    </div>
+    <div id="compassContainer">
+      <div id="imagem">
+          <img src="imagens/seta-direcao.png" id="compass"/>
       </div>
       <div id="facilidade">Sanit&aacute;rios</div>
       <img src="imagens/sanitarios.png" name="icone" id="icone"/>
