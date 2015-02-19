@@ -214,12 +214,6 @@ $(window).load(function() {
       <form action="">
       <input type="text" x-webkit-speech>
       </form>
-                  <div id="compassContainer">
-      <div id="imagem">
-          <img src="imagens/logotipo_150.png" id="busca"/>
-      </div>
-      <img src="imagens/busca.png" name="icone" id="icone"/>
-    </div>
     <div id="compassContainer">
       <div id="imagem">
           <img src="imagens/seta-direcao.png" id="compass"/>
@@ -252,12 +246,47 @@ $(window).load(function() {
   <div data-role="footer" data-theme="c">
 <div data-role="navbar">
 		<ul>
-			<li class="ui-btn-active ui-state-persist"><a href="#page" data-icon="grid" class="ui-btn-active">Inicio</a></li>
-			<li><a href="#page3" data-icon="gear">Redes sociais</a></li>
-			<li><a href="http://www.scortecci.com.br/formulario.php?id=304" data-icon="star">Contato</a></li>
+			<li class="ui-btn-active ui-state-persist"><a href="index.html" data-icon="grid" class="ui-btn-active">Inicio</a></li>
+			<li><a href="#page" data-icon="gear">Check-in</a></li>
+			<li><a href="#page1" data-icon="star">Contato</a></li>
 		</ul>
 	</div>
       </div>
   </div>
+<div data-role="page" id="page1">
+  <div data-role="header">
+    <h1>Entre em contato</h1>
+  </div>
+  <div data-role="content">
+  <form action="" method="get">
+    <div data-role="fieldcontain">
+      <label for="textinput">Nome:</label>
+      <input type="text" name="textinput" id="textinput" value="" placeholder="digite seu nome"/>
+    </div>
+    <div data-role="fieldcontain">
+      <label for="textinput2">Empresa:</label>
+      <input type="text" name="textinput2" id="textinput2" value="" placeholder="nome da empresa"/>
+    </div>
+    <div data-role="fieldcontain">
+      <label for="textinput3">Telefone:</label>
+      <input type="tel" name="textinput3" id="textinput3" value="" placeholder="telefone"/>
+    </div>
+    <div data-role="fieldcontain">
+      <label for="textinput4">Data de nascimento:</label>
+      <input type="date" name="textinput4" id="textinput4" value="" placeholder="data de nascimento"/>
+    </div>
+    <a href="#" data-role="button">Enviar</a>
+    
+  </form></div>
+  <div data-role="footer" data-theme="b">
+<div data-role="navbar">
+		<ul>
+			<li class="ui-btn-active ui-state-persist"><a href="index.html" data-icon="grid" class="ui-btn-active" target="_top">Inicio</a></li>
+			<li><a href="#page" data-icon="gear">Check-in</a></li>
+			<li><a href="#page1" data-icon="star">Contato</a></li>
+		</ul>
+	</div>
+      </div>
+</div>
   </body>
 </html>
